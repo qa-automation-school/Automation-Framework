@@ -48,7 +48,6 @@ async function test() {
     console.error(error);
   } finally {
     // executes after `try` or `catch`
-    await driver.quit();
   }
 }
 
